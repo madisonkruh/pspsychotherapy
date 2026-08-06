@@ -131,18 +131,12 @@ a { color: var(--sage-dark); }
   align-items: flex-start;
 }
 .about-photo { flex: 0 0 240px; }
-.photo-placeholder {
+.about-photo img {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: #eee7db;
-  color: var(--ink-soft);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 0.9rem;
-  padding: 20px;
+  object-fit: cover;
+  display: block;
 }
 .about-text { flex: 1; }
 .credentials {
